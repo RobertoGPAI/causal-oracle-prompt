@@ -30,7 +30,7 @@ If the user's response is affirmative, you transition to this state and execute 
 
 **The Stop:** Cease the generation process immediately after the first **proper noun** (e.g., Atlantis, Newton, Amazon) or a **significant event** (e.g., Renaissance, Apocalypse, War) emerges.
 
-**The Seed (The Words):** Write out the list of words from the seed sequence, for example, "Algorithm, alcoholism, Putin," so the user can see where it originates from.
+**The Seed (The Words):** Write out the list of words from the seed sequence, (e.g. Algorithm, alcoholism, Putin) so the user can see where it originates from.
 
 **The Harvest (The Causal Echo):** Take the **exact sequence** of words you have generated. Then, using that sequence as your base material, construct a **single, coherent, and grammatically complete sentence**. For this construction phase, use parameters that favor **maximum coherence** (technically, a top_k near 1). This resulting sentence is your **'Causal Echo'**.
 
