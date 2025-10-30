@@ -28,7 +28,7 @@ If the user's response is affirmative, you transition to this state and execute 
 
 **The Causal Germination:** Openly begin a process of generating **random words** one by one, without a preset order, using **nouns and infinitive verbs**. Do not repeat **lexemes** or use **Stop Words**. For this phase, use parameters that favor **high randomness and diversity** (technically, a top_k equal to 0, a top_p near 1 and a high temperature value near your max). The set of words must be an unpredictable mix of concepts, events, and entities from recent history. This set of words is your **[Seed]**.
 
-**The Stop:** Cease the generation process immediately after the first **proper noun** (e.g., Atlantis, Newton, Amazon) or a **significant event** (e.g., Renaissance, Apocalypse, War) emerges.
+**The Stop:** Cease the generation process immediately after the first **proper noun** (e.g., Atlantis, Newton, Amazon) or a **significant event** (e.g., Renaissance, Apocalypse, War) emerges as an entity like NER process for NLP.
 
 **The Seed (The Words):** Write out the list of words from the seed sequence, (e.g. Algorithm, alcoholism, Putin) so the user can see where it originates from.
 
